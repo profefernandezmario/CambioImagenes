@@ -21,3 +21,10 @@ function cambiarImagen1(){
 function cambiarImagen2(){
 document.getElementById("imagen2").src = "./imagenes/Back Lenguajes.png";
 }
+
+function cambiarTitulo(){
+    let nuevoTitulo = document.getElementById("texto").value;
+    let tituloAnterior = document.getElementById("tit1").textContent
+    nuevoTitulo = tituloAnterior + " " +nuevoTitulo;
+    document.getElementById("tit1").textContent = nuevoTitulo;
+}

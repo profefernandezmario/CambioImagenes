@@ -15,14 +15,7 @@
 <body>
     <div class="container">
         <header>
-            <nav class="navbar navbar-expand navbar-light bg-light">
-                <div class="nav navbar-nav">
-                    <a class="nav-item nav-link active" href="#" aria-current="page">Home <span
-                            class="visually-hidden">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Home</a>
-                </div>
-            </nav>
-
+            <h1 id="tit1" class="text-center text-bg-dark py-3">Aplicando JS a Imagenes</h1>
         </header>
         <main>
             <table class="table">
@@ -46,12 +39,20 @@
                     </div>
                 </tr>
             </table>
+            <hr>
+            <label for="texto"></label>
+            <input type="text" id="texto" placeholder="escriba aqui">
+            <button type="submit" onclick="cambiarTitulo()">cambiar Titulo</button>
+            <hr>
         </main>
 
-        <footer>
+        <!-- <footer> -->
+        <div class="sticky-bottom">
             <hr>
-            <address class="text-bg-secondary text-capitalize text-center"><button>Design by MRF SISTEMAS |  </button> </address>
-        </footer>
+            <address class="text-bg-secondary text-capitalize text-center"><button>Design by MRF SISTEMAS |
+                </button> </address>
+        </div>
+        <!-- </footer> -->
     </div>
     <script src="loquesea.js"></script>
     <!-- Bootstrap JavaScript Libraries -->
